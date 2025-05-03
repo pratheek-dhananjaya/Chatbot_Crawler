@@ -14,7 +14,7 @@ Features:
   - **Regex-based pattern matching** for known vendors (e.g., Intercom, Zendesk, Tidio, Dialogflow).
 - Automatically clicks cookie consent banners (accept, agree, allow, etc.).
 - Saves a `.json` file of all network logs per website.
-- Runs in parallel using Python's `ThreadPoolExecutor` (default: 4 threads).
+- Runs in parallel using Python's `ThreadPoolExecutor`.
 - Outputs results in a CSV summary.
 
 ---
