@@ -1,0 +1,25 @@
+website,chatbot_detected,detection_reason
+https://openwidget.com,Yes,Third Party Vendor
+https://messengerbot.app,Yes,Not connected to a vendor
+https://www.openassistantgpt.io/en,Yes,Third Party Vendor
+https://lobechat.com/,Yes,Third Party Vendor
+https://www.chat-data.com/,Yes,Not connected to a vendor
+https://chatthing.ai/,Yes,Third Party Vendor
+https://www.chatbotui.com/,Yes,Third Party Vendor
+https://okareo.com/,Yes,Third Party Vendor
+https://quidget.ai,Yes,Third Party Vendor
+https://elfsight.com,No,error:unknown
+https://sendbird.com,No,error:unknown
+https://deepchat.dev,Yes,Not connected to a vendor
+https://buildship.com,No,error:unknown
+https://livechatai.com,Yes,Third Party Vendor
+https://edenai.co,Yes,Not connected to a vendor
+https://dhtmlx.com,Yes,Not connected to a vendor
+https://flowiseai.com,Yes,Third Party Vendor
+https://openchat.team,Yes,Third Party Vendor
+https://chatbotkit.com,Yes,Third Party Vendor
+https://quikchat.ai,Yes,Not connected to a vendor
+https://mendix.com,Yes,Third Party Vendor
+https://pythagora.ai,Yes,Not connected to a vendor
+https://appsmith.com,Yes,Not connected to a vendor
+https://customgpt.ai,Yes,Third Party Vendor
