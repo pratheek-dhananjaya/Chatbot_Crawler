@@ -4,7 +4,7 @@ Our research over the last several weeks has been on the **automated identificat
 
 This project detects the presence of AI-powered chatbots or third-party live chat support on a list of websites by analyzing their network activity. It leverages SeleniumWire to capture HTTP(S) traffic, applies pattern matching for known chatbot libraries or LLM providers, and saves the detection results for further analysis.
 
-—-
+—--
 
 Features:
 
@@ -23,7 +23,7 @@ Features:
 
 Provide a file named `websites.csv` in the root directory with one website per line.
 
-—-
+—--
 
 ## Requirements
 
