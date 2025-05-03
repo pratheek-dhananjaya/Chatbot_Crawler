@@ -46,10 +46,10 @@ def process_website(url):
                 text = button.text.strip().lower()
                 if any(k in text for k in ["accept", "agree", "allow", "understand", "opt-in"]):
                     button.click()
-                    print("🍪 Cookie banner accepted.")
+                    print("Cookie banner accepted.")
                     break
         except Exception as cookie_error:
-            print("⚠️ Cookie banner not handled:", cookie_error)
+            print("Cookie banner not handled:", cookie_error)
 
         for _ in range(3):
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -132,4 +132,4 @@ with ThreadPoolExecutor(max_workers=4) as executor:
 # Save summary CSV
 summary_file = "chatbot_detection_summary2.csv"
 pd.DataFrame(results).to_csv(summary_file, index=False)
-print(f"\n✅ Parallel detection complete. Summary saved to {summary_file}")
+print(f"\nParallel detection complete. Summary saved to {summary_file}")
